@@ -1,0 +1,25 @@
+.wp-block-create-block-custom-charts {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+    // Base typography
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.5;
+    p {
+        margin: 0;
+    }
+
+    // Border styles
+    &.has-border-color {
+        border-color: var(--wp--preset--color--border, inherit);
+        border-style: solid !important;
+        border-width: 1px;
+    }
+
+    &.has-border-radius {
+        overflow: hidden;
+    }
+
+}
