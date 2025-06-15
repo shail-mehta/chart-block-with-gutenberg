@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-custom-charts {
+	border: 1px dotted #f00;
+}
+
+textarea.block-editor-plain-text {
+    background: transparent !important;
+}
+
+.rich_texts p.rich-text {
+    line-height: inherit;
+}
